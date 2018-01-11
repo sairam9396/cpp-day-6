@@ -1,0 +1,18 @@
+2.Inline function
+
+#include <iostream>
+ 
+using namespace std;
+
+inline int Maximum(int x, int y) {
+   return (x > y)? x : y;
+}
+
+// Main function for the program
+int main() {
+   cout << "Maximum (20,10): " << Maximum(20,10) << endl;
+   cout << "Maximum (0,200): " << Maximum(0,200) << endl;
+   cout << "Maximum (100,1010): " << Maximum(100,1010) << endl;
+   
+   return 0;
+}
